@@ -69,30 +69,20 @@
 ## Business Context
 
 ```mermaid
-graph TD
-A((Hour Registration Reminder and Reward System))
-B(Developers)
-C(Team Leads/Managers)
-D(Project Management Tools)
-E(Client Billing)
-F(Stakeholders)
-A --> B
-A --> D
-A --> C
-A --> F
-A --> E
+graph LR
+    A((Developers)) -- Log Hours --> B((Reminder and Reward System))
+    B -- Send Reminders --> A
+    B -- Escalation Process --> C((Team Leads/Managers))
+    B -- Manage Rewards --> A
 ```
 
-In this diagram:
+In the context diagram:
 
-* A represents the Hour Registration Reminder and Reward System.
-* B represents the Developers who will interact with the system.
-* C represents the Team Leads/Managers who may receive notifications in the chase mechanism.
-* D represents the Project Management Tools through which automated reminders may be sent.
-* E represents Client Billing, which will be impacted by timely hour registration.
-* F represents Stakeholders who have an interest in the successful implementation of the system.
+* Developers are responsible for logging their hours within the system.
+* The Reminder and Reward System sends reminders to developers and manages the reward system.
+* The system also includes an Escalation Process that involves notifications being sent to Team Leads/Managers in case of repeated non-compliance.
 
-This context diagram illustrates the external entities interacting with the system, providing a high-level view of its environment and stakeholders [1].
+This context diagram provides a high-level view of the system's interactions with its external entities, highlighting the key actors and their relationships within the business case[[1]](https://guidance.infosupport.com/03-architecture-guidance/05-artifacts/context-diagram.html).
 
 ## Technical Context
 
