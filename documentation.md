@@ -68,9 +68,31 @@
 
 ## Business Context
 
-**\<Diagram or Table>**
+```mermaid
+graph TD
+A((Hour Registration Reminder and Reward System))
+B(Developers)
+C(Team Leads/Managers)
+D(Project Management Tools)
+E(Client Billing)
+F(Stakeholders)
+A --> B
+A --> D
+A --> C
+A --> F
+A --> E
+```
 
-**\<optionally: Explanation of external domain interfaces>**
+In this diagram:
+
+* A represents the Hour Registration Reminder and Reward System.
+* B represents the Developers who will interact with the system.
+* C represents the Team Leads/Managers who may receive notifications in the chase mechanism.
+* D represents the Project Management Tools through which automated reminders may be sent.
+* E represents Client Billing, which will be impacted by timely hour registration.
+* F represents Stakeholders who have an interest in the successful implementation of the system.
+
+This context diagram illustrates the external entities interacting with the system, providing a high-level view of its environment and stakeholders [1].
 
 ## Technical Context
 
