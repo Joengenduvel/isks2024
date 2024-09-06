@@ -51,10 +51,16 @@
 
 ## Stakeholders
 
-| Role/Name              | Contact        | Expectations                         |
-|------------------------|----------------|--------------------------------------|
-| *Timv (Manager)*       | *\<Contact-1>* | *Risks, Progress, Budget, Timelines* |
-| *Timm (Product Owner)* | *\<Contact-2>* | *Scope, Timelines*                   |
+| Role/Name                      | Contact       | Expectations                       |
+|--------------------------------|---------------|------------------------------------|
+| Tim (Manager)                  | phone, e-mail | Risks, Progress, Budget, Timelines |
+| Tim (Product Owner)            | phone, e-mail | Scope, Timelines                   |
+| *Development team members*     |               |                                    |
+| *Quality assurance team*       |               |                                    |
+| *End users/customers*          |               |                                    |
+| *Business analysts*            |               |                                    |
+| *System administrators*        |               |                                    |
+| *External vendors or partners* |               |                                    |
 
 # Architecture Constraints
 
