@@ -219,6 +219,24 @@ Mapping of Building Blocks to Infrastructure
 
 # Architecture Decisions
 
+## **001**: Using Markdown, MermaidJS, and arc42 for Documentation
+
+**Date**: 07/09/2024
+
+**Status**: Accepted
+
+**Context**:
+Our project requires comprehensive and easily understandable documentation to facilitate collaboration, knowledge transfer, and onboarding of team members. We are looking for a solution to effectively document the architecture and design decisions while ensuring accessibility and readability.
+
+**Decision**:
+We will use Markdown as the primary format for creating text-based documentation due to its simplicity, readability, and version control compatibility. Additionally, we will utilize MermaidJS to create diagrams and visual representations, enhancing the overall comprehensibility of the documentation. Furthermore, we will adopt the arc42 template to structure our architectural documentation, providing a clear and consistent format for presenting architectural decisions and rationales.
+
+**Consequences**:
+1. **Clarity and Consistency**: The use of Markdown, MermaidJS, and arc42 will enable us to maintain a clear and consistent structure in our documentation, aiding in communication and understanding among team members.
+2. **Accessibility**: By leveraging these technologies, our documentation will be easily accessible and viewable within the GitHub repository, providing transparency and enabling seamless collaboration.
+3. **Knowledge Transfer and Onboarding**: The adoption of these tools will facilitate efficient knowledge transfer and onboarding of new team members, allowing them to quickly grasp the project's architecture and design decisions.
+
+
 # Quality Requirements
 
 ## Quality Tree
